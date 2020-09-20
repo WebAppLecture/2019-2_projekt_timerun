@@ -1,0 +1,44 @@
+<html>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/screen1.css" />
+    <link rel="stylesheet" href="./css/screen2.css" />
+    <link rel="stylesheet" href="./css/screen3.css" />
+</head>
+
+<body id="timerun">
+    <div id="gamescreen" class="screen1">
+        <div class="sky"></div>
+        <div class="ground"></div>
+
+        <div class="case"></div> <!--hintergrund / spielescreen-->
+        
+        <div class="screenFirstElement"></div> <!--rahmen / ständer-->
+        <div class="screenSecondElement"></div> <!--schatten / ständer-->
+        
+        <div class="firstElement"></div> <!--busch / grid-->
+        <div class="firstElement firstElement2"></div>
+        <div class="firstElement firstElement2 firstElement3"></div>
+        <div class="secondElement"></div> <!--wolke / none-->
+        <div class="secondElement secondElement2"></div>
+        <div class="secondElement secondElement2 secondElement3"></div>
+
+        <canvas 
+            id="myCanvas"
+            class="screen" 
+            width="500" height="300">
+        </canvas> <!--spielescreen / grauer rahmen-->
+
+        <div class="button"></div>
+        <div class="button secondButton secondButton1"></div>
+        <div class="button secondButton secondButton2"></div>
+        <div class="button secondButton secondButton3"></div>
+        <div class="button secondButton secondButton4"></div>
+    </div>
+    
+            
+<script>
+    import("./js/world.js").then(modul => window.World = modul.default).then(()=> {let a = new World();});
+</script>
+
+</body>  
+</html>

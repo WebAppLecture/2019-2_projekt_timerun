@@ -1,0 +1,207 @@
+.screen1 .screen
+{
+    position: absolute;
+    background-color: rgb(138, 146, 137);
+    height: 300px;
+    width: 500px;
+    top: 115px;
+    left: calc(50% - 250px);
+
+    border-radius: 20%;
+
+    box-shadow:
+        inset 0 0 5em black,
+        inset 0 0 5em black;  
+}
+
+.screen1 .case
+{
+    position: absolute;
+    background-color: rgb(36, 36, 36);
+    height: 450px;
+    width: 830px;
+    top: 40px;
+    left: calc(50% - 250px - 50px - 30px);
+
+    border-color: beige;
+    border-radius: 0%;
+    border-width: 10px;
+
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+
+    box-shadow: none;
+    
+}
+
+.screen1 .screenFirstElement
+{
+    opacity: 1;
+    position: absolute;
+    background-color: rgb(255, 208, 0);
+    height: 400px;
+    width: 600px;
+    top: 65px;
+    left: calc(50% - 250px - 50px);
+
+    border-radius: 5%;
+    border-color: wheat;
+    border-width: 75px;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+
+    box-shadow: 0px 0px 16px 2px rgba(161, 146, 113, 0.63);
+}
+
+.screen1 .screenSecondElement
+{
+    position: absolute;
+    background-color: rgb(255, 208, 0);
+    height: 250px;
+    width: 450px;
+    top: 140px;
+    left: calc(50% - 225px);
+
+    box-shadow:
+        0px 0px 33px 30px rgba(0, 0, 0, 0.68),
+        0px 0px 33px 60px rgba(100, 70, 31, 0.68);    
+}
+
+.screen1 .button
+{
+    position: absolute;
+    background-color: #777;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    top: 280px;
+    left: calc(50% + 250px + 110px);
+
+    border-width: 3px;
+    border-color: #bbb;
+    border-style: dashed;
+    background-clip: padding-box;
+
+    box-shadow: 0 0 0 8px inset #ccc,
+        0 0 5px 12px inset #777, 
+        0 0 50px 20px inset #aaa, 
+        0 0 0 50px inset #777,
+        0px 0px 16px 7px rgb(68, 68, 68);
+        
+
+    animation: rotate 5s normal linear infinite;
+}
+
+.screen1 .secondButton
+{
+    position: absolute;
+    top: 380px;
+    height: 75px;
+    width: 75px;
+    animation-direction: reverse;
+}
+
+.screen1 .secondButton1
+{
+    margin-left: none;
+}
+.screen1 .secondButton2
+{
+    margin-left: none;
+}
+.screen1 .secondButton3
+{
+    margin-left: none;
+}
+.screen1 .secondButton4
+{
+    margin-left: none;
+}
+
+@keyframes rotate {
+    100%{transform: rotate(360deg)};
+}
+
+/*------------------------Background-----------------------*/
+.screen1 .sky
+{
+    position: absolute;
+    background-color: transparent;
+    height: none;
+    width: none;
+    top: none;
+    left: none;    
+}
+
+.screen1 .ground
+{
+    position: absolute;
+    background-color: transparent;
+    height: none;
+    width: none;
+    top: none;
+    left: none;    
+}
+
+
+/*------------------------Decoration-----------------------*/
+.screen1 .firstElement
+{
+    position: absolute;
+    background-color: #777;
+    height: 170px;
+    width: 120px;
+    border-radius: 10%;
+    top: 80px;
+    left: calc(50% + 250px + 90px);
+    margin: none;
+
+    background-image: linear-gradient(180deg, #9c9c9c 25%, #757575 25%, #757575 50%, #757575 50%, #c9c5c6 75%, #757575 75%, #757575 100%);
+    background-size: 40.00px 40.00px;
+
+    box-shadow: 
+        inset 0 0 4em black,
+        0px 0px 16px 2px rgb(68, 68, 68);
+
+    animation: none;
+}
+
+.screen1 .secondElement{
+    position: none;
+    background: transparent;
+    width: none;
+    height: none;
+    top: none;
+    margin: none;
+    border-radius: 0;
+    left: none;
+
+    animation: none;
+}
+
+.screen1 .firstElement2
+{
+    top: none;
+    animation: none;
+}
+.screen1 .firstElement3
+{
+    top: none;
+    animation: none;
+}
+.screen1 .secondElement2{
+    animation: none;
+}
+.screen1 .secondElement3{
+    animation: none;
+}
+
+
+
+
+
+
